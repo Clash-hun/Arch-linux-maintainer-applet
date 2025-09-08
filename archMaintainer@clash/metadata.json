@@ -1,0 +1,9 @@
+{
+  "uuid": "archMaintainer@clash",
+  "name": "Arch Maintainer",
+  "description": "Manual Arch Linux maintenance applet",
+  "icon": "icon",
+  "version": "1.0",
+  "cinnamon-version": ["5.0", "6.0"]
+}
+
