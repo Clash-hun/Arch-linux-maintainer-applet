@@ -28,9 +28,30 @@ The applet shows a **spinning system icon** while running commands.
 
 ---
 
-## 📂 Installation
+## ⚙️ Installation
 1. Clone the repo into your Cinnamon applets directory:
    ```bash
    git clone https://github.com/Clash-hun/archMaintainer@clash.git \
      ~/.local/share/cinnamon/applets/archMaintainer@clash
 
+---
+## 📂 File Structure
+
+```
+archMaintainer@clash/
+├── applet.js
+├── metadata.json
+├── icon.png
+└── icons/
+    └── black.svg
+    └── white.svg
+```
+## ☕ Support Me
+
+If you find these scripts helpful, consider buying me a coffee! ☕
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%23FFDD00.svg?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://paypal.me/clash2un?country.x=HU&locale.x=hu_HU)
+
+---
+
+Thank you for using my scripts! 😊 Happy Arching! 🎩✨
