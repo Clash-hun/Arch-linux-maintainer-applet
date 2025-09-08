@@ -54,7 +54,7 @@ If you find these scripts helpful, consider buying me a coffee! ☕
 
 ---
 
-Thank you for using my scripts! 😊 Happy Arching! 🎩✨
+Thank you for using my applet! 😊 Happy Arching! 🎩✨
 
 
 <div align="center">
