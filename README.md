@@ -55,3 +55,8 @@ If you find these scripts helpful, consider buying me a coffee! ☕
 ---
 
 Thank you for using my scripts! 😊 Happy Arching! 🎩✨
+
+
+<div align="center">
+  <img src="https://github.com/Clash-hun/Arch-linux-maintainer-applet/blob/main/icon.png"  style="width:15%;">
+</div>
