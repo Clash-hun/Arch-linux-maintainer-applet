@@ -54,7 +54,7 @@ ArchApplet.prototype = {
     );
     this.addMenuItem(
       "List installed kernels",
-      "mhwd-kernel -li",
+      "echo 'Current kernel:'; uname -r; echo ''; echo 'Installed kernels:'; pacman -Qq | grep '^linux'",
       "Kernel list"
     );
     this.addMenuItem(
@@ -130,10 +130,7 @@ ArchApplet.prototype = {
   },
 
   updateIcon() {
-    let theme    = Gtk.Settings.get_default().gtk_theme_name.toLowerCase();
-    let isDark   = theme.includes("dark") || theme.includes("white");
-    let iconName = isDark ? "b.svg" : "white.svg";
-    let iconPath = `${GLib.get_home_dir()}/.local/share/cinnamon/applets/archMaintainer@clash/icons/${iconName}`;
+    let iconPath = `${GLib.get_home_dir()}/.local/share/cinnamon/applets/archMaintainer@clash/icons/maintenance.svg`;
     this.set_applet_icon_path(iconPath);
   },
 
